@@ -158,9 +158,8 @@ li {
     animation: flicker 1.5s infinite alternate;
   }
   #img1{
-    position: absolute;
-    opacity: 100%;
-    top: 120px;
+    height: 500px;
+    margin-top: -100px;
   }
   #imgUser{
     width: 150px;
@@ -177,10 +176,11 @@ li {
     padding: 100px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
   }
   #txtmain{
     margin-bottom: 10px;
+    text-align: center;
   }
   p{
     font-family: 'Chau Philomene One', sans-serif;
