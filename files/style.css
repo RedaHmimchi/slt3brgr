@@ -1,3 +1,5 @@
+/* meow */
+
 @font-face { 
     font-family: 'Pricedown';
     src: url('./pricedown.ttf') format('truetype');
@@ -25,7 +27,8 @@ footer{
 }
 .f00ter{
     position: relative;
-    bottom: -130px;
+    bottom: -120px;
+    padding-bottom: 20px;
     color: white;
     width: 100%;
     font-family: "Protest Revolution", sans-serif;
@@ -206,5 +209,73 @@ li {
     display: flex;
     justify-content: left;
     align-items: center;
+  }
+  #userp{
+    margin-left: 50px;
+    margin-top: -10px;
+    font-size: 20px;
+  }
+  #infomain{
+    font-size: x-large;
+  }
+
+  @media (max-width: 940px)
+  {
+
+    .itmzclass2{
+      top: 100px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 0px;
+    }
+    .p{
+      font-size: smaller;
+    }
+    #userp{
+      font-size: small;
+    }
+    #imgUser{
+      width: 100px;
+      margin-left: 60px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .h0me{
+      font-size: 50px;
+    }
+    .navdiv{
+      right: 10px;
+    }
+    #n1{
+      font-size: 30px;
+    }
+    #n2{
+      font-size: 30px;
+    }
+    #txtmain{
+      font-size: 20px;
+    }
+    #infomain{
+      font-size: small;
+      text-align: center;
+    }
+    .f00ter{
+      font-size: 15px;
+    }
+
+    #img1{
+      top: 50px;
+      height: 300px;
+    }
+    #itmz{
+      padding-bottom: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
+      justify-content: center;
+    }
   }
   
